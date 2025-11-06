@@ -100,21 +100,21 @@ const PaymentForm = () => {
           alt='klarna'
           width={50}
           height={50}
-          className='rounded-md'
+          className='rounded-md hover:scale-110 cursor-pointer transition-all duration-300'
         />
         <Image
           src='/cards.png'
           alt='cards'
           width={50}
           height={50}
-          className='rounded-md'
+          className='rounded-md hover:scale-110 cursor-pointer transition-all duration-300'
         />
         <Image
           src='/stripe.png'
           alt='stripe'
           width={50}
           height={50}
-          className='rounded-md'
+          className='rounded-md hover:scale-110 cursor-pointer transition-all duration-300'
         />
       </div>
       <button
